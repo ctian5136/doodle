@@ -12,3 +12,5 @@ This is an implementation of the Doodle Poll scheduler, focusing on a user's exp
 
 ## To Play:
 - Select your availability and then press submit, there are also directions on the interface
+
+Huge thank you to Carolyn Wang for helping me figure out the d3 data generation!
