@@ -1,0 +1,85 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.section{
+    text-align:center;
+    padding-left:4%;
+    padding-right:4%;
+    padding-bottom: 3%;
+}
+
+#section1{
+    height: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 15vh;
+    padding-left: 15vh;
+    background-color:#92e1e3;
+    opacity: 60%;
+    color: black;
+    text-align: left;
+}
+
+.col{
+    padding-top:5vh;
+    padding-bottom: 5vh;
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+.yes{
+    color:#329932;
+}
+
+.maybe{
+    color:#ffe58f;
+}
+
+#submitButton {
+    background-color: dodgerblue;
+    color:#f4f7fb;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    margin-right: 0;
+    top: 5px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
