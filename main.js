@@ -139,14 +139,8 @@ card
         });
     });
 
-// function to clear all boxes
+// function to display the success modal and clear all boxes after the submit button is pressed
 function clearAll() {
-  let checkboxes = document.getElementsByClassName("checkbox");
-
-  for (var i = 0; i < checkboxes.length; i++) {
-    checkboxes[i].className = "fa-regular fa-square fa-2x checkbox";
-    dates[i].class = "fa-regular fa-square fa-2x checkbox";
-  }
   var modal = document.getElementById("submittedModal");
   var span = document.getElementsByClassName("close")[0];
 
@@ -159,5 +153,12 @@ function clearAll() {
     if (event.target == modal) {
       modal.style.display = "none";
     }
+  }
+
+  let checkboxes = document.getElementsByClassName("checkbox");
+
+  for (var i = 0; i < checkboxes.length; i++) {
+    checkboxes[i].className = "fa-regular fa-square fa-2x checkbox";
+    dates[i].class = "fa-regular fa-square fa-2x checkbox";
   }
 }
