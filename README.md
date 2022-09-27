@@ -7,7 +7,7 @@ This is an implementation of the Doodle Poll scheduler, focusing on a user's exp
 - Differences not implemented here is the onboarding process. The organizer selects the date and times first that are then offered in the displayed view to the other participants to mark availability on. This process involves a calendar where they can put in the times by clicking, which creates a time block, and then dragging to extend or shorten it.
 
 ## To Access:
-- The website is deployed on Github, so if you navigate to the right panel, you can click the "view deployement" and play from there.
+- The website is deployed on Github, click this link to play: https://ctian5136.github.io/doodle/.
 - You can also download the repo and double click on the index.html file to open it up
 
 ## To Play:
